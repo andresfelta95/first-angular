@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 type Movie = {
   name: string,
   available: number,
-  quantity: number
+  quantity: number,
+  surce: string
 };
 type Movies = Array<Movie>;
 
@@ -18,12 +19,14 @@ export class AppComponent {
     {
       name: "Thor Love & Thunder",
       available: 10,
-      quantity: 0
+      quantity: 0,
+      surce: "../images/ThorL&T.jpg"
     },
     {
-      name: "Minions",
+      name: "Minions The Rise of Gru",
       available: 50,
-      quantity: 0
+      quantity: 0,
+      surce: "../images/Minions-The-Rise-of-Gru.jpg"
     }
   ];
   addMovieQuantity(movieName: string){
