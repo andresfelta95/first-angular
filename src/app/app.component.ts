@@ -20,13 +20,13 @@ export class AppComponent {
       name: "Thor Love & Thunder",
       available: 10,
       quantity: 0,
-      surce: "../images/ThorL&T.jpg"
+      surce: "../assets/images/ThorLT.png"
     },
     {
       name: "Minions The Rise of Gru",
       available: 50,
       quantity: 0,
-      surce: "../images/Minions-The-Rise-of-Gru.jpg"
+      surce: "../assets/images/MinionsTheRiseofGru.png"
     }
   ];
   addMovieQuantity(movieName: string){
